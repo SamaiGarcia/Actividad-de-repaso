@@ -36,8 +36,15 @@ public class LoopMaster {
     }
 
     public static void imprimirTablaMultiplicar(int n) {
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(n + " x " + i + " = " + (n * i));
-        }
+       
+         for( int i = 1; i<=n; i++){
+            for( int s= 1; s<=10; s++){
+int resultado = i *s;
+System.out.println(i + "x" + s + "=" + resultado);
+            }
+         }
+            
+           // System.out.println(n + " x " + i + " = " + (n * i));
+        
     }
 }
